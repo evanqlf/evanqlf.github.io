@@ -227,7 +227,11 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
     <p class="hero-desc">Étudiant en école d'informatique avec le projet de devenir développeur web full-stack. Je transforme des idées en expériences numériques — du back-end au front, en passant par la base de données.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="#projects">Voir mes projets ↓</a>
+<<<<<<< HEAD
       <a class="btn btn-ghost" href="CV STAGE Evan BELROSE.pdf" download>Télécharger le CV</a>
+=======
+      <a class="btn btn-ghost" href="cv-evan-belrose.pdf" download>Télécharger le CV</a>
+>>>>>>> d69c623531dd720c94f5adfedaaa020cc1cba27c
     </div>
     <div class="socials-row">
       <a class="social-pill" href="mailto:belrose69140@gmail.com"><span class="social-dot" style="background:#6c63ff"></span>belrose69140@gmail.com</a>
@@ -299,8 +303,8 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
   <div class="s-label">Ressources</div>
   <div class="s-title">Documents</div>
   <div class="docs-grid reveal">
-    <div class="doc-card"><div class="doc-icon">📄</div><div class="doc-title">Curriculum Vitae</div><div class="doc-desc">Mon CV à jour — parcours, compétences et expériences.</div><a class="doc-btn" href="cv-evan-belrose.pdf" download>⬇ Télécharger le CV</a></div>
-    <div class="doc-card"><div class="doc-icon">✉️</div><div class="doc-title">Lettre de motivation</div><div class="doc-desc">Ma lettre de motivation pour toute candidature : stage, alternance ou CDI.</div><a class="doc-btn" href="lettre-motivation-evan-belrose.pdf" download>⬇ Télécharger la lettre</a></div>
+    <div class="doc-card"><div class="doc-icon">📄</div><div class="doc-title">Curriculum Vitae</div><div class="doc-desc">Mon CV à jour — parcours, compétences et expériences.</div><a class="doc-btn" href="CV STAGE Evan BELROSE.pdf" download>⬇ Télécharger le CV</a></div>
+    <div class="doc-card"><div class="doc-icon">✉️</div><div class="doc-title">Lettre de motivation</div><div class="doc-desc">Ma lettre de motivation pour toute candidature : stage, alternance ou CDI.</div><a class="doc-btn" href="LM Evan BELROSE STAGE.pdf" download>⬇ Télécharger la LM</a></div>
     <div class="doc-card"><div class="doc-icon">🔗</div><div class="doc-title">Profil LinkedIn</div><div class="doc-desc">Parcours complet, recommandations et réseau professionnel.</div><a class="doc-btn" href="https://linkedin.com/in/evan-belrose-/" target="_blank">↗ Voir le profil</a></div>
     <div class="doc-card"><div class="doc-icon">⬡</div><div class="doc-title">GitHub</div><div class="doc-desc">Mes dépôts publics, projets et contributions open source.</div><a class="doc-btn" href="https://github.com/evanqlf" target="_blank">↗ Voir le GitHub</a></div>
   </div>
@@ -589,6 +593,7 @@ function addVeille(){
 }
 function deleteVeille(id){veilleItems=veilleItems.filter(v=>v.id!==id);renderVeille();renderAdminLists();showToast('🗑 Ressource supprimée.')}
 
+<<<<<<< HEAD
 async function submitContact(){
   const fields=['fc-prenom','fc-nom','fc-email','fc-sujet','fc-msg'];
   if(fields.some(f=>!document.getElementById(f).value.trim())){
@@ -617,6 +622,13 @@ async function submitContact(){
   } catch(e){
     showToast('❌ Erreur réseau. Réessayez.');
   }
+=======
+function submitContact(){
+  const fields=['fc-prenom','fc-nom','fc-email','fc-sujet','fc-msg'];
+  if(fields.some(f=>!document.getElementById(f).value.trim())){showToast('⚠ Merci de remplir tous les champs.');return;}
+  fields.forEach(f=>document.getElementById(f).value='');
+  showToast('✅ Message envoyé ! Je vous répondrai dès que possible.');
+>>>>>>> d69c623531dd720c94f5adfedaaa020cc1cba27c
 }
 
 const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});
