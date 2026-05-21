@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)file:///C:/Users/belro/Downloads/index.html -->
-<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src https://formspree.io;">
 <title>Evan BELROSE — Portfolio</title>
-<link href="./index_files/css2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -185,16 +186,16 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
 <nav>
   <div class="logo">EB.</div>
   <ul class="nav-links">
-    <li><a href="file:///C:/Users/belro/Downloads/index.html#about">À propos</a></li>
-    <li><a href="file:///C:/Users/belro/Downloads/index.html#skills">Compétences</a></li>
-    <li><a href="file:///C:/Users/belro/Downloads/index.html#projects">Projets</a></li>
-    <li><a href="file:///C:/Users/belro/Downloads/index.html#veille">Veille</a></li>
-    <li><a href="file:///C:/Users/belro/Downloads/index.html#docs">Documents</a></li>
-    <li><a href="file:///C:/Users/belro/Downloads/index.html#contact">Contact</a></li>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#veille">Veille</a></li>
+    <li><a href="#docs">Documents</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-right">
     <button class="btn btn-admin" id="admin-btn" style="display:none" onclick="openAdmin()">⚙ Admin</button>
-    <a class="btn btn-primary" href="file:///C:/Users/belro/Downloads/index.html#contact">Me contacter</a>
+    <a class="btn btn-primary" href="#contact">Me contacter</a>
   </div>
 </nav>
 
@@ -209,8 +210,8 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
     </h1>
     <p class="hero-desc">Étudiant en école d'informatique avec le projet de devenir développeur web full-stack. Je transforme des idées en expériences numériques — du back-end au front, en passant par la base de données.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="file:///C:/Users/belro/Downloads/index.html#projects">Voir mes projets ↓</a>
-      <a class="btn btn-ghost" href="file:///C:/Users/belro/Downloads/CV%20STAGE%20Evan%20BELROSE.pdf" download="">Télécharger le CV</a>
+      <a class="btn btn-primary" href="#projects">Voir mes projets ↓</a>
+      <a class="btn btn-ghost" href="CV STAGE Evan BELROSE.pdf" download>Télécharger le CV</a>
     </div>
     <div class="socials-row">
       <a class="social-pill" href="mailto:belrose69140@gmail.com"><span class="social-dot" style="background:#6c63ff"></span>belrose69140@gmail.com</a>
@@ -238,7 +239,7 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
     <div class="stats-col">
       <div class="stat-card"><div class="stat-num">7+</div><div class="stat-label">Technologies maîtrisées</div></div>
       <div class="stat-card"><div class="stat-num">3</div><div class="stat-label">Projets réalisés / en cours</div></div>
-      <div class="stat-card"><div class="stat-num">100%</div><div class="stat-label">Motivé &amp; autodidacte</div></div>
+      <div class="stat-card"><div class="stat-num">100%</div><div class="stat-label">Motivé & autodidacte</div></div>
       <div class="stat-card"><div class="stat-num">Lyon</div><div class="stat-label">Basé en France</div></div>
     </div>
   </div>
@@ -247,92 +248,17 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
 <section id="skills" style="background:var(--bg)">
   <div class="s-label">Savoir-faire</div>
   <div class="s-title">Compétences techniques</div>
-  <div class="skills-grid reveal" id="skills-grid"><div class="skill-card">
-      
-      <div class="skill-emoji">🌐</div>
-      <div class="skill-name">HTML / CSS / JS</div>
-      <div class="skill-cat">Front-end fondamentaux</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
-    </div><div class="skill-card">
-      
-      <div class="skill-emoji">🐍</div>
-      <div class="skill-name">Python</div>
-      <div class="skill-cat">Scripts &amp; automatisation</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
-    </div><div class="skill-card">
-      
-      <div class="skill-emoji">🐘</div>
-      <div class="skill-name">PHP</div>
-      <div class="skill-cat">Back-end web</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
-    </div><div class="skill-card">
-      
-      <div class="skill-emoji">☕</div>
-      <div class="skill-name">Java</div>
-      <div class="skill-cat">POO &amp; applications</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
-    </div><div class="skill-card">
-      
-      <div class="skill-emoji">🗄️</div>
-      <div class="skill-name">SQL / NoSQL</div>
-      <div class="skill-cat">Bases de données</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
-    </div><div class="skill-card">
-      
-      <div class="skill-emoji">🔧</div>
-      <div class="skill-name">WordPress</div>
-      <div class="skill-cat">CMS &amp; thèmes</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
-    </div><div class="skill-card">
-      
-      <div class="skill-emoji">🌿</div>
-      <div class="skill-name">Git</div>
-      <div class="skill-cat">Versioning &amp; GitHub</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
-    </div></div>
+  <div class="skills-grid reveal" id="skills-grid"></div>
 </section>
 
 <section class="projects-bg" id="projects">
   <div class="s-label">Réalisations</div>
   <div class="s-title">Mes projets</div>
-  <div class="proj-grid reveal" id="proj-grid"><div class="proj-card">
-      <div class="proj-thumb thumb-java" style="position:relative">🎮
-      </div>
-      <div class="proj-body">
-        <div class="proj-title">TTMC — Tu Te Mets Combien ?</div>
-        <div class="proj-desc">Recréation du célèbre jeu de société TTMC en mode console Java. Gestion des règles, des tours de jeu et des scores en programmation orientée objet.</div>
-        <div class="proj-tags"><span class="tag">Java</span><span class="tag">POO</span><span class="tag">Console</span></div>
-        <div class="proj-links">
-          <a class="proj-link" href="https://github.com/evanqlf" target="_blank">⬡ GitHub</a>
-          
-        </div>
-      </div></div><div class="proj-card">
-      <div class="proj-thumb thumb-web" style="position:relative">🌐
-      </div>
-      <div class="proj-body">
-        <div class="proj-title">SIOtech — Projet Réseau</div>
-        <div class="proj-desc">Site web réalisé dans le cadre d'un projet réseau scolaire. Interface soignée présentant des ressources et informations techniques liées aux réseaux informatiques.</div>
-        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Projet scolaire</span></div>
-        <div class="proj-links">
-          <a class="proj-link" href="https://github.com/evanqlf" target="_blank">⬡ GitHub</a>
-          
-        </div>
-      </div></div><div class="proj-card wip">
-      <div class="proj-thumb thumb-pnl" style="position:relative">🎵<span class="wip-badge">En cours</span>
-      </div>
-      <div class="proj-body">
-        <div class="proj-title">Site PNL — Fan Project</div>
-        <div class="proj-desc">Site complet dédié au groupe de rap PNL. Un projet passion pour approfondir mes compétences en développement web full-stack sur un sujet qui m'inspire vraiment.</div>
-        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">En cours</span></div>
-        <div class="proj-links">
-          <a class="proj-link" href="https://github.com/evanqlf" target="_blank">⬡ GitHub</a>
-          
-        </div>
-      </div></div><div class="add-proj" onclick="openAdmin(&#39;projects&#39;)"><div class="add-circle">+</div><div class="add-title">Ajouter un projet</div><div class="add-desc">Appuie 3x sur A pour ouvrir le panneau admin.</div></div></div>
+  <div class="proj-grid reveal" id="proj-grid"></div>
 </section>
 
 <section id="veille" style="background:var(--bg)">
-  <div class="s-label">Curiosité &amp; apprentissage</div>
+  <div class="s-label">Curiosité & apprentissage</div>
   <div class="s-title">Veille technologique</div>
   <div class="veille-grid reveal">
     <div class="veille-card">
@@ -343,7 +269,7 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
     <div class="veille-card">
       <h3>📡 Mes sources de veille</h3>
       <p>Je me renseigne régulièrement sur les actus du web et de l'informatique :</p>
-      <div class="resource-list" id="veille-display"><div class="resource-item"><span class="ytb-badge">YOU</span><a href="https://youtube.com/@micode" target="_blank">MICODE</a> — tech, IA, cybersécurité</div><div class="resource-item"><span class="ytb-badge">YOU</span><a href="https://youtube.com/@leoduff" target="_blank">Léo DUFF</a> — développement &amp; carrière dev</div><div class="resource-item"><span class="ytb-badge">YOU</span><a href="https://youtube.com/@developpeurlibre" target="_blank">Développeur libre</a> — indépendance &amp; code</div></div>
+      <div class="resource-list" id="veille-display"></div>
     </div>
   </div>
 </section>
@@ -352,8 +278,8 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
   <div class="s-label">Ressources</div>
   <div class="s-title">Documents</div>
   <div class="docs-grid reveal">
-    <div class="doc-card"><div class="doc-icon">📄</div><div class="doc-title">Curriculum Vitae</div><div class="doc-desc">Mon CV à jour — parcours, compétences et expériences.</div><a class="doc-btn" href="file:///C:/Users/belro/Downloads/CV%20STAGE%20Evan%20BELROSE.pdf" download="">⬇ Télécharger le CV</a></div>
-    <div class="doc-card"><div class="doc-icon">✉️</div><div class="doc-title">Lettre de motivation</div><div class="doc-desc">Ma lettre de motivation pour toute candidature : stage, alternance ou CDI.</div><a class="doc-btn" href="file:///C:/Users/belro/Downloads/LM%20Evan%20BELROSE%20STAGE.pdf" download="">⬇ Télécharger la LM</a></div>
+    <div class="doc-card"><div class="doc-icon">📄</div><div class="doc-title">Curriculum Vitae</div><div class="doc-desc">Mon CV à jour — parcours, compétences et expériences.</div><a class="doc-btn" href="CV STAGE Evan BELROSE.pdf" download>⬇ Télécharger le CV</a></div>
+    <div class="doc-card"><div class="doc-icon">✉️</div><div class="doc-title">Lettre de motivation</div><div class="doc-desc">Ma lettre de motivation pour toute candidature : stage, alternance ou CDI.</div><a class="doc-btn" href="LM Evan BELROSE STAGE.pdf" download>⬇ Télécharger la LM</a></div>
     <div class="doc-card"><div class="doc-icon">🔗</div><div class="doc-title">Profil LinkedIn</div><div class="doc-desc">Parcours complet, recommandations et réseau professionnel.</div><a class="doc-btn" href="https://linkedin.com/in/evan-belrose-/" target="_blank">↗ Voir le profil</a></div>
     <div class="doc-card"><div class="doc-icon">⬡</div><div class="doc-title">GitHub</div><div class="doc-desc">Mes dépôts publics, projets et contributions open source.</div><a class="doc-btn" href="https://github.com/evanqlf" target="_blank">↗ Voir le GitHub</a></div>
   </div>
@@ -366,13 +292,13 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
     <p style="color:var(--muted);font-size:.95rem;line-height:1.8">Une opportunité, une question ou juste l'envie d'échanger ? Je suis disponible.</p>
     <div class="contact-form">
       <div class="form-row">
-        <div class="form-group"><label class="f-label">Prénom</label><input class="f-input" id="fc-prenom" type="text" placeholder="Votre prénom"></div>
-        <div class="form-group"><label class="f-label">Nom</label><input class="f-input" id="fc-nom" type="text" placeholder="Votre nom"></div>
+        <div class="form-group"><label class="f-label" for="fc-prenom">Prénom</label><input class="f-input" id="fc-prenom" type="text" placeholder="Votre prénom"></div>
+        <div class="form-group"><label class="f-label" for="fc-nom">Nom</label><input class="f-input" id="fc-nom" type="text" placeholder="Votre nom"></div>
       </div>
-      <div class="form-group"><label class="f-label">Email</label><input class="f-input" id="fc-email" type="email" placeholder="votre@email.com"></div>
-      <div class="form-group"><label class="f-label">Sujet</label><input class="f-input" id="fc-sujet" type="text" placeholder="Sujet de votre message"></div>
-      <div class="form-group"><label class="f-label">Message</label><textarea class="f-textarea" id="fc-msg" placeholder="Votre message..."></textarea></div>
-      <button class="f-submit" onclick="submitContact()">Envoyer le message ✉</button>
+      <div class="form-group"><label class="f-label" for="fc-email">Email</label><input class="f-input" id="fc-email" type="email" placeholder="votre@email.com"></div>
+      <div class="form-group"><label class="f-label" for="fc-sujet">Sujet</label><input class="f-input" id="fc-sujet" type="text" placeholder="Sujet de votre message"></div>
+      <div class="form-group"><label class="f-label" for="fc-msg">Message</label><textarea class="f-textarea" id="fc-msg" placeholder="Votre message..."></textarea></div>
+      <button class="f-submit" id="btn-submit">Envoyer le message ✉</button>
     </div>
     <div class="contact-links">
       <a class="c-link" href="mailto:belrose69140@gmail.com">✉ belrose69140@gmail.com</a>
@@ -383,31 +309,31 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
 </section>
 
 <footer>
-  <p>Conçu &amp; développé par <strong style="color:var(--text)">Evan BELROSE</strong> — 2025 · belrose69140@gmail.com</p>
+  <p>Conçu & développé par <strong style="color:var(--text)">Evan BELROSE</strong> — 2025 · belrose69140@gmail.com</p>
 </footer>
 
 <div class="toast" id="toast"></div>
 
-<div class="admin-overlay" id="admin-overlay" onclick="closeAdminOutside(event)">
+<div class="admin-overlay" id="admin-overlay">
   <div class="admin-panel">
     <div class="admin-title">
       ⚙ Panneau d'administration
-      <button class="admin-close" onclick="closeAdmin()">✕</button>
+      <button class="admin-close" id="btn-admin-close">✕</button>
     </div>
     <div class="admin-tabs">
-      <button class="admin-tab active" onclick="switchTab(&#39;projects&#39;)">🗂 Projets</button>
-      <button class="admin-tab" onclick="switchTab(&#39;skills&#39;)">💡 Compétences</button>
-      <button class="admin-tab" onclick="switchTab(&#39;veille&#39;)">📡 Veille</button>
+      <button class="admin-tab active" data-tab="projects">🗂 Projets</button>
+      <button class="admin-tab" data-tab="skills">💡 Compétences</button>
+      <button class="admin-tab" data-tab="veille">📡 Veille</button>
     </div>
     <div class="admin-section active" id="tab-projects">
       <div class="items-list" id="proj-list"></div>
-      <button class="add-item-btn" onclick="toggleAddForm(&#39;proj-add-form&#39;)">+ Ajouter un projet</button>
+      <button class="add-item-btn" id="btn-open-proj-form">+ Ajouter un projet</button>
       <div class="add-form" id="proj-add-form">
         <hr class="separator">
-        <div class="admin-form-group"><label class="admin-label">Titre du projet</label><input class="admin-input" id="new-proj-title" placeholder="Ex: Application météo"></div>
+        <div class="admin-form-group"><label class="admin-label">Titre</label><input class="admin-input" id="new-proj-title" placeholder="Ex: Application météo"></div>
         <div class="admin-form-group"><label class="admin-label">Description</label><textarea class="admin-textarea" id="new-proj-desc" placeholder="Décrivez votre projet..."></textarea></div>
         <div class="admin-row">
-          <div class="admin-form-group"><label class="admin-label">Technologies (virgule)</label><input class="admin-input" id="new-proj-tags" placeholder="React, Node.js, MongoDB"></div>
+          <div class="admin-form-group"><label class="admin-label">Technologies (virgule)</label><input class="admin-input" id="new-proj-tags" placeholder="React, Node.js"></div>
           <div class="admin-form-group"><label class="admin-label">Statut</label>
             <select class="admin-select" id="new-proj-status">
               <option value="done">Terminé</option>
@@ -419,14 +345,14 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
         <div class="admin-form-group"><label class="admin-label">Lien Démo</label><input class="admin-input" id="new-proj-demo" placeholder="https://mon-projet.fr"></div>
         <div class="admin-form-group"><label class="admin-label">Emoji</label><input class="admin-input" id="new-proj-emoji" placeholder="🚀" style="width:80px"></div>
         <div style="display:flex;gap:.5rem;margin-top:.5rem">
-          <button class="admin-cancel" onclick="toggleAddForm(&#39;proj-add-form&#39;)">Annuler</button>
-          <button class="admin-save" onclick="addProject()">Ajouter le projet</button>
+          <button class="admin-cancel" id="btn-cancel-proj">Annuler</button>
+          <button class="admin-save" id="btn-save-proj">Ajouter le projet</button>
         </div>
       </div>
     </div>
     <div class="admin-section" id="tab-skills">
       <div class="items-list" id="skill-list"></div>
-      <button class="add-item-btn" onclick="toggleAddForm(&#39;skill-add-form&#39;)">+ Ajouter une compétence</button>
+      <button class="add-item-btn" id="btn-open-skill-form">+ Ajouter une compétence</button>
       <div class="add-form" id="skill-add-form">
         <hr class="separator">
         <div class="admin-row">
@@ -444,14 +370,14 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
           </select>
         </div>
         <div style="display:flex;gap:.5rem;margin-top:.5rem">
-          <button class="admin-cancel" onclick="toggleAddForm(&#39;skill-add-form&#39;)">Annuler</button>
-          <button class="admin-save" onclick="addSkill()">Ajouter</button>
+          <button class="admin-cancel" id="btn-cancel-skill">Annuler</button>
+          <button class="admin-save" id="btn-save-skill">Ajouter</button>
         </div>
       </div>
     </div>
     <div class="admin-section" id="tab-veille">
-      <div class="items-list" id="veille-list"><div class="item-row"><div><div class="item-name">MICODE</div><div style="font-size:.78rem;color:var(--muted)">YouTube · tech, IA, cybersécurité</div></div><div class="item-actions"><button class="item-btn del" onclick="deleteVeille(1)">Suppr.</button></div></div><div class="item-row"><div><div class="item-name">Léo DUFF</div><div style="font-size:.78rem;color:var(--muted)">YouTube · développement &amp; carrière dev</div></div><div class="item-actions"><button class="item-btn del" onclick="deleteVeille(2)">Suppr.</button></div></div><div class="item-row"><div><div class="item-name">Développeur libre</div><div style="font-size:.78rem;color:var(--muted)">YouTube · indépendance &amp; code</div></div><div class="item-actions"><button class="item-btn del" onclick="deleteVeille(3)">Suppr.</button></div></div></div>
-      <button class="add-item-btn" onclick="toggleAddForm(&#39;veille-add-form&#39;)">+ Ajouter une ressource</button>
+      <div class="items-list" id="veille-list"></div>
+      <button class="add-item-btn" id="btn-open-veille-form">+ Ajouter une ressource</button>
       <div class="add-form" id="veille-add-form">
         <hr class="separator">
         <div class="admin-row">
@@ -468,10 +394,10 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
           </div>
         </div>
         <div class="admin-form-group"><label class="admin-label">Lien</label><input class="admin-input" id="new-veille-link" placeholder="https://youtube.com/@..."></div>
-        <div class="admin-form-group"><label class="admin-label">Thème / description</label><input class="admin-input" id="new-veille-desc" placeholder="Ex: Web dev moderne &amp; React"></div>
+        <div class="admin-form-group"><label class="admin-label">Thème</label><input class="admin-input" id="new-veille-desc" placeholder="Ex: Web dev moderne"></div>
         <div style="display:flex;gap:.5rem;margin-top:.5rem">
-          <button class="admin-cancel" onclick="toggleAddForm(&#39;veille-add-form&#39;)">Annuler</button>
-          <button class="admin-save" onclick="addVeille()">Ajouter</button>
+          <button class="admin-cancel" id="btn-cancel-veille">Annuler</button>
+          <button class="admin-save" id="btn-save-veille">Ajouter</button>
         </div>
       </div>
     </div>
@@ -479,12 +405,12 @@ footer{text-align:center;padding:1.75rem;border-top:1px solid var(--border);colo
 </div>
 
 <script>
-let projects=[
-  {id:1,title:'TTMC — Tu Te Mets Combien ?',desc:"Recréation du célèbre jeu de société TTMC en mode console Java. Gestion des règles, des tours de jeu et des scores en programmation orientée objet.",tags:['Java','POO','Console'],status:'done',link:'https://github.com/evanqlf',demo:'',emoji:'🎮',theme:'thumb-java'},
-  {id:2,title:'SIOtech — Projet Réseau',desc:"Site web réalisé dans le cadre d'un projet réseau scolaire. Interface soignée présentant des ressources et informations techniques liées aux réseaux informatiques.",tags:['HTML','CSS','Projet scolaire'],status:'done',link:'https://github.com/evanqlf',demo:'',emoji:'🌐',theme:'thumb-web'},
-  {id:3,title:'Site PNL — Fan Project',desc:"Site complet dédié au groupe de rap PNL. Un projet passion pour approfondir mes compétences en développement web full-stack sur un sujet qui m'inspire vraiment.",tags:['HTML','CSS','JS','En cours'],status:'wip',link:'https://github.com/evanqlf',demo:'',emoji:'🎵',theme:'thumb-pnl'}
+var projects=[
+  {id:1,title:'TTMC — Tu Te Mets Combien ?',desc:"Recréation du célèbre jeu de société TTMC en mode console Java. Gestion des règles, des tours de jeu et des scores en POO.",tags:['Java','POO','Console'],status:'done',link:'https://github.com/evanqlf',demo:'',emoji:'🎮',theme:'thumb-java'},
+  {id:2,title:'SIOtech — Projet Réseau',desc:"Site web réalisé dans le cadre d'un projet réseau scolaire. Interface soignée présentant des ressources techniques liées aux réseaux informatiques.",tags:['HTML','CSS','Projet scolaire'],status:'done',link:'https://github.com/evanqlf',demo:'',emoji:'🌐',theme:'thumb-web'},
+  {id:3,title:'Site PNL — Fan Project',desc:"Site complet dédié au groupe de rap PNL. Un projet passion pour approfondir mes compétences en développement web full-stack.",tags:['HTML','CSS','JS','En cours'],status:'wip',link:'https://github.com/evanqlf',demo:'',emoji:'🎵',theme:'thumb-pnl'}
 ];
-let skills=[
+var skills=[
   {id:1,name:'HTML / CSS / JS',cat:'Front-end fondamentaux',emoji:'🌐',level:80,status:'mastered'},
   {id:2,name:'Python',cat:'Scripts & automatisation',emoji:'🐍',level:65,status:'mastered'},
   {id:3,name:'PHP',cat:'Back-end web',emoji:'🐘',level:60,status:'mastered'},
@@ -493,155 +419,226 @@ let skills=[
   {id:6,name:'WordPress',cat:'CMS & thèmes',emoji:'🔧',level:65,status:'mastered'},
   {id:7,name:'Git',cat:'Versioning & GitHub',emoji:'🌿',level:75,status:'mastered'}
 ];
-let veilleItems=[
+var veilleItems=[
   {id:1,name:'MICODE',platform:'YouTube',link:'https://youtube.com/@micode',desc:'tech, IA, cybersécurité'},
   {id:2,name:'Léo DUFF',platform:'YouTube',link:'https://youtube.com/@leoduff',desc:'développement & carrière dev'},
   {id:3,name:'Développeur libre',platform:'YouTube',link:'https://youtube.com/@developpeurlibre',desc:'indépendance & code'}
 ];
 
-function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3500)}
+function showToast(msg){
+  var t=document.getElementById('toast');
+  t.textContent=msg;
+  t.classList.add('show');
+  setTimeout(function(){t.classList.remove('show');},3500);
+}
 
 function renderProjects(){
-  const grid=document.getElementById('proj-grid');
-  grid.innerHTML='';
-  projects.forEach(p=>{
-    const wip=p.status==='wip';
-    const theme=p.theme||'thumb-default';
-    grid.innerHTML+=`<div class="proj-card${wip?' wip':''}">
-      <div class="proj-thumb ${theme}" style="position:relative">${p.emoji}${wip?'<span class="wip-badge">En cours</span>':''}
-      </div>
-      <div class="proj-body">
-        <div class="proj-title">${p.title}</div>
-        <div class="proj-desc">${p.desc}</div>
-        <div class="proj-tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
-        <div class="proj-links">
-          ${p.link?`<a class="proj-link" href="${p.link}" target="_blank">⬡ GitHub</a>`:''}
-          ${p.demo?`<a class="proj-link" href="${p.demo}" target="_blank">↗ Démo</a>`:''}
-        </div>
-      </div></div>`;
-  });
-  grid.innerHTML+=`<div class="add-proj" onclick="openAdmin('projects')"><div class="add-circle">+</div><div class="add-title">Ajouter un projet</div><div class="add-desc">Appuie 3x sur A pour ouvrir le panneau admin.</div></div>`;
+  var grid=document.getElementById('proj-grid');
+  var html='';
+  for(var i=0;i<projects.length;i++){
+    var p=projects[i];
+    var wip=p.status==='wip';
+    var theme=p.theme||'thumb-default';
+    var tagsHtml='';
+    for(var j=0;j<p.tags.length;j++) tagsHtml+='<span class="tag">'+p.tags[j]+'</span>';
+    html+='<div class="proj-card'+(wip?' wip':'')+'"><div class="proj-thumb '+theme+'" style="position:relative">'+p.emoji+(wip?'<span class="wip-badge">En cours</span>':'')+'</div><div class="proj-body"><div class="proj-title">'+p.title+'</div><div class="proj-desc">'+p.desc+'</div><div class="proj-tags">'+tagsHtml+'</div><div class="proj-links">'+(p.link?'<a class="proj-link" href="'+p.link+'" target="_blank">⬡ GitHub</a>':'')+(p.demo?'<a class="proj-link" href="'+p.demo+'" target="_blank">↗ Démo</a>':'')+'</div></div></div>';
+  }
+  html+='<div class="add-proj" id="btn-add-proj-card"><div class="add-circle">+</div><div class="add-title">Ajouter un projet</div><div class="add-desc">Appuie 3x sur A pour ouvrir le panneau admin.</div></div>';
+  grid.innerHTML=html;
+  document.getElementById('btn-add-proj-card').addEventListener('click',function(){openAdmin('projects');});
 }
 
 function renderSkills(){
-  const grid=document.getElementById('skills-grid');
-  grid.innerHTML='';
-  skills.forEach(s=>{
-    const learning=s.status==='learning';
-    grid.innerHTML+=`<div class="skill-card${learning?' learning':''}">
-      ${learning?'<span class="learning-badge">En cours</span>':''}
-      <div class="skill-emoji">${s.emoji}</div>
-      <div class="skill-name">${s.name}</div>
-      <div class="skill-cat">${s.cat}</div>
-      <div class="skill-bar"><div class="skill-fill" style="width:${s.level}%"></div></div>
-    </div>`;
-  });
+  var grid=document.getElementById('skills-grid');
+  var html='';
+  for(var i=0;i<skills.length;i++){
+    var s=skills[i];
+    var learning=s.status==='learning';
+    html+='<div class="skill-card'+(learning?' learning':'')+'">'+( learning?'<span class="learning-badge">En cours</span>':'')+'<div class="skill-emoji">'+s.emoji+'</div><div class="skill-name">'+s.name+'</div><div class="skill-cat">'+s.cat+'</div><div class="skill-bar"><div class="skill-fill" style="width:'+s.level+'%"></div></div></div>';
+  }
+  grid.innerHTML=html;
 }
 
 function renderVeille(){
-  const admin=document.getElementById('veille-list');
-  if(admin){admin.innerHTML='';veilleItems.forEach(v=>{admin.innerHTML+=`<div class="item-row"><div><div class="item-name">${v.name}</div><div style="font-size:.78rem;color:var(--muted)">${v.platform} · ${v.desc}</div></div><div class="item-actions"><button class="item-btn del" onclick="deleteVeille(${v.id})">Suppr.</button></div></div>`;})}
-  const display=document.getElementById('veille-display');
-  if(display){display.innerHTML='';veilleItems.forEach(v=>{display.innerHTML+=`<div class="resource-item"><span class="ytb-badge">${v.platform.substring(0,3).toUpperCase()}</span><a href="${v.link}" target="_blank">${v.name}</a> — ${v.desc}</div>`;})}
+  var display=document.getElementById('veille-display');
+  if(display){
+    var html='';
+    for(var i=0;i<veilleItems.length;i++){
+      var v=veilleItems[i];
+      html+='<div class="resource-item"><span class="ytb-badge">'+v.platform.substring(0,3).toUpperCase()+'</span><a href="'+v.link+'" target="_blank">'+v.name+'</a> — '+v.desc+'</div>';
+    }
+    display.innerHTML=html;
+  }
+  var admin=document.getElementById('veille-list');
+  if(admin){
+    var html2='';
+    for(var i=0;i<veilleItems.length;i++){
+      var v=veilleItems[i];
+      html2+='<div class="item-row"><div><div class="item-name">'+v.name+'</div><div style="font-size:.78rem;color:var(--muted)">'+v.platform+' · '+v.desc+'</div></div><div class="item-actions"><button class="item-btn del" data-id="'+v.id+'" data-type="veille">Suppr.</button></div></div>';
+    }
+    admin.innerHTML=html2;
+    var btns=admin.querySelectorAll('[data-type="veille"]');
+    for(var i=0;i<btns.length;i++){
+      btns[i].addEventListener('click',function(){deleteVeille(parseInt(this.getAttribute('data-id')));});
+    }
+  }
 }
 
 function renderAdminLists(){
-  const pl=document.getElementById('proj-list');
-  pl.innerHTML='';
-  projects.forEach(p=>{pl.innerHTML+=`<div class="item-row"><div><div class="item-name">${p.emoji} ${p.title}</div><div style="font-size:.78rem;color:var(--muted)">${p.tags.join(', ')} · ${p.status==='wip'?'En cours':'Terminé'}</div></div><div class="item-actions"><button class="item-btn del" onclick="deleteProject(${p.id})">Suppr.</button></div></div>`});
-  const sl=document.getElementById('skill-list');
-  sl.innerHTML='';
-  skills.forEach(s=>{sl.innerHTML+=`<div class="item-row"><div><div class="item-name">${s.emoji} ${s.name}</div><div style="font-size:.78rem;color:var(--muted)">${s.cat} · ${s.level}% · ${s.status==='learning'?'En apprentissage':'Maîtrisé'}</div></div><div class="item-actions"><button class="item-btn del" onclick="deleteSkill(${s.id})">Suppr.</button></div></div>`});
+  var pl=document.getElementById('proj-list');
+  var html='';
+  for(var i=0;i<projects.length;i++){
+    var p=projects[i];
+    html+='<div class="item-row"><div><div class="item-name">'+p.emoji+' '+p.title+'</div><div style="font-size:.78rem;color:var(--muted)">'+p.tags.join(', ')+' · '+(p.status==='wip'?'En cours':'Terminé')+'</div></div><div class="item-actions"><button class="item-btn del" data-id="'+p.id+'" data-type="proj">Suppr.</button></div></div>';
+  }
+  pl.innerHTML=html;
+  var pbtns=pl.querySelectorAll('[data-type="proj"]');
+  for(var i=0;i<pbtns.length;i++){
+    pbtns[i].addEventListener('click',function(){deleteProject(parseInt(this.getAttribute('data-id')));});
+  }
+  var sl=document.getElementById('skill-list');
+  var html2='';
+  for(var i=0;i<skills.length;i++){
+    var s=skills[i];
+    html2+='<div class="item-row"><div><div class="item-name">'+s.emoji+' '+s.name+'</div><div style="font-size:.78rem;color:var(--muted)">'+s.cat+' · '+s.level+'% · '+(s.status==='learning'?'En apprentissage':'Maîtrisé')+'</div></div><div class="item-actions"><button class="item-btn del" data-id="'+s.id+'" data-type="skill">Suppr.</button></div></div>';
+  }
+  sl.innerHTML=html2;
+  var sbtns=sl.querySelectorAll('[data-type="skill"]');
+  for(var i=0;i<sbtns.length;i++){
+    sbtns[i].addEventListener('click',function(){deleteSkill(parseInt(this.getAttribute('data-id')));});
+  }
   renderVeille();
 }
 
-function openAdmin(tab){document.getElementById('admin-overlay').classList.add('open');if(tab)switchTab(tab);renderAdminLists()}
-function closeAdmin(){document.getElementById('admin-overlay').classList.remove('open')}
-function closeAdminOutside(e){if(e.target===document.getElementById('admin-overlay'))closeAdmin()}
+function openAdmin(tab){
+  document.getElementById('admin-overlay').classList.add('open');
+  if(tab) switchTab(tab);
+  renderAdminLists();
+}
+function closeAdmin(){document.getElementById('admin-overlay').classList.remove('open');}
+
 function switchTab(tab){
-  document.querySelectorAll('.admin-tab').forEach((t,i)=>{const tabs=['projects','skills','veille'];t.classList.toggle('active',tabs[i]===tab)});
-  document.querySelectorAll('.admin-section').forEach(s=>s.classList.remove('active'));
+  var tabs=document.querySelectorAll('.admin-tab');
+  var names=['projects','skills','veille'];
+  for(var i=0;i<tabs.length;i++) tabs[i].classList.toggle('active',names[i]===tab);
+  var sections=document.querySelectorAll('.admin-section');
+  for(var i=0;i<sections.length;i++) sections[i].classList.remove('active');
   document.getElementById('tab-'+tab).classList.add('active');
 }
-function toggleAddForm(id){document.getElementById(id).classList.toggle('open')}
 
-function addProject(){
-  const title=document.getElementById('new-proj-title').value.trim();
-  const desc=document.getElementById('new-proj-desc').value.trim();
-  const tags=document.getElementById('new-proj-tags').value.split(',').map(t=>t.trim()).filter(Boolean);
-  const status=document.getElementById('new-proj-status').value;
-  const link=document.getElementById('new-proj-link').value.trim();
-  const demo=document.getElementById('new-proj-demo').value.trim();
-  const emoji=document.getElementById('new-proj-emoji').value.trim()||'🚀';
-  if(!title){showToast('⚠ Merci de renseigner un titre.');return;}
-  projects.push({id:Date.now(),title,desc,tags,status,link,demo,emoji,theme:'thumb-default'});
-  ['new-proj-title','new-proj-desc','new-proj-tags','new-proj-link','new-proj-demo','new-proj-emoji'].forEach(i=>document.getElementById(i).value='');
-  document.getElementById('proj-add-form').classList.remove('open');
-  renderProjects();renderAdminLists();showToast('✅ Projet ajouté !');
-}
-function deleteProject(id){projects=projects.filter(p=>p.id!==id);renderProjects();renderAdminLists();showToast('🗑 Projet supprimé.')}
+function deleteProject(id){projects=projects.filter(function(p){return p.id!==id;});renderProjects();renderAdminLists();showToast('🗑 Projet supprimé.');}
+function deleteSkill(id){skills=skills.filter(function(s){return s.id!==id;});renderSkills();renderAdminLists();showToast('🗑 Compétence supprimée.');}
+function deleteVeille(id){veilleItems=veilleItems.filter(function(v){return v.id!==id;});renderVeille();showToast('🗑 Ressource supprimée.');}
 
-function addSkill(){
-  const name=document.getElementById('new-skill-name').value.trim();
-  const cat=document.getElementById('new-skill-cat').value.trim();
-  const emoji=document.getElementById('new-skill-emoji').value.trim()||'💻';
-  const level=parseInt(document.getElementById('new-skill-level').value)||50;
-  const status=document.getElementById('new-skill-status').value;
-  if(!name){showToast('⚠ Merci de renseigner un nom.');return;}
-  skills.push({id:Date.now(),name,cat,emoji,level,status});
-  ['new-skill-name','new-skill-cat','new-skill-emoji','new-skill-level'].forEach(i=>document.getElementById(i).value='');
-  document.getElementById('skill-add-form').classList.remove('open');
-  renderSkills();renderAdminLists();showToast('✅ Compétence ajoutée !');
-}
-function deleteSkill(id){skills=skills.filter(s=>s.id!==id);renderSkills();renderAdminLists();showToast('🗑 Compétence supprimée.')}
+// Event listeners — NO inline onclick to avoid CSP issues
+document.addEventListener('DOMContentLoaded', function(){
+  // Admin close
+  document.getElementById('btn-admin-close').addEventListener('click', closeAdmin);
+  document.getElementById('admin-overlay').addEventListener('click', function(e){
+    if(e.target===this) closeAdmin();
+  });
 
-function addVeille(){
-  const name=document.getElementById('new-veille-name').value.trim();
-  const platform=document.getElementById('new-veille-platform').value;
-  const link=document.getElementById('new-veille-link').value.trim();
-  const desc=document.getElementById('new-veille-desc').value.trim();
-  if(!name){showToast('⚠ Merci de renseigner un nom.');return;}
-  veilleItems.push({id:Date.now(),name,platform,link,desc});
-  ['new-veille-name','new-veille-link','new-veille-desc'].forEach(i=>document.getElementById(i).value='');
-  document.getElementById('veille-add-form').classList.remove('open');
-  renderVeille();renderAdminLists();showToast('✅ Ressource ajoutée !');
-}
-function deleteVeille(id){veilleItems=veilleItems.filter(v=>v.id!==id);renderVeille();renderAdminLists();showToast('🗑 Ressource supprimée.')}
+  // Admin tabs
+  var tabs=document.querySelectorAll('.admin-tab');
+  tabs[0].addEventListener('click',function(){switchTab('projects');});
+  tabs[1].addEventListener('click',function(){switchTab('skills');});
+  tabs[2].addEventListener('click',function(){switchTab('veille');});
 
-async function submitContact(){
-  const fields=['fc-prenom','fc-nom','fc-email','fc-sujet','fc-msg'];
-  if(fields.some(f=>!document.getElementById(f).value.trim())){showToast('⚠ Merci de remplir tous les champs.');return;}
-  const data={
-    prenom:document.getElementById('fc-prenom').value,
-    nom:document.getElementById('fc-nom').value,
-    email:document.getElementById('fc-email').value,
-    sujet:document.getElementById('fc-sujet').value,
-    message:document.getElementById('fc-msg').value
-  };
-  try{
-    const res=await fetch('https://formspree.io/f/xpqndavw',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
-    if(res.ok){fields.forEach(f=>document.getElementById(f).value='');showToast('✅ Message envoyé ! Je vous répondrai dès que possible.');}
-    else showToast('❌ Erreur lors de l\'envoi. Réessayez.');
-  }catch(e){showToast('❌ Erreur réseau. Réessayez.');}
-}
+  // Project form
+  document.getElementById('btn-open-proj-form').addEventListener('click',function(){document.getElementById('proj-add-form').classList.toggle('open');});
+  document.getElementById('btn-cancel-proj').addEventListener('click',function(){document.getElementById('proj-add-form').classList.remove('open');});
+  document.getElementById('btn-save-proj').addEventListener('click',function(){
+    var title=document.getElementById('new-proj-title').value.trim();
+    var desc=document.getElementById('new-proj-desc').value.trim();
+    var tagsRaw=document.getElementById('new-proj-tags').value.split(',');
+    var tags=[];
+    for(var i=0;i<tagsRaw.length;i++){var t=tagsRaw[i].trim();if(t)tags.push(t);}
+    var status=document.getElementById('new-proj-status').value;
+    var link=document.getElementById('new-proj-link').value.trim();
+    var demo=document.getElementById('new-proj-demo').value.trim();
+    var emoji=document.getElementById('new-proj-emoji').value.trim()||'🚀';
+    if(!title){showToast('⚠ Merci de renseigner un titre.');return;}
+    projects.push({id:Date.now(),title:title,desc:desc,tags:tags,status:status,link:link,demo:demo,emoji:emoji,theme:'thumb-default'});
+    ['new-proj-title','new-proj-desc','new-proj-tags','new-proj-link','new-proj-demo','new-proj-emoji'].forEach(function(id){document.getElementById(id).value='';});
+    document.getElementById('proj-add-form').classList.remove('open');
+    renderProjects();renderAdminLists();showToast('✅ Projet ajouté !');
+  });
 
-let adminKeyCount=0,adminTimer;
-document.addEventListener('keydown',e=>{
-  if(e.key.toLowerCase()==='a'){
-    adminKeyCount++;
-    clearTimeout(adminTimer);
-    adminTimer=setTimeout(()=>adminKeyCount=0,1000);
-    if(adminKeyCount>=3){openAdmin();adminKeyCount=0;}
-  }
+  // Skill form
+  document.getElementById('btn-open-skill-form').addEventListener('click',function(){document.getElementById('skill-add-form').classList.toggle('open');});
+  document.getElementById('btn-cancel-skill').addEventListener('click',function(){document.getElementById('skill-add-form').classList.remove('open');});
+  document.getElementById('btn-save-skill').addEventListener('click',function(){
+    var name=document.getElementById('new-skill-name').value.trim();
+    var cat=document.getElementById('new-skill-cat').value.trim();
+    var emoji=document.getElementById('new-skill-emoji').value.trim()||'💻';
+    var level=parseInt(document.getElementById('new-skill-level').value)||50;
+    var status=document.getElementById('new-skill-status').value;
+    if(!name){showToast('⚠ Merci de renseigner un nom.');return;}
+    skills.push({id:Date.now(),name:name,cat:cat,emoji:emoji,level:level,status:status});
+    ['new-skill-name','new-skill-cat','new-skill-emoji','new-skill-level'].forEach(function(id){document.getElementById(id).value='';});
+    document.getElementById('skill-add-form').classList.remove('open');
+    renderSkills();renderAdminLists();showToast('✅ Compétence ajoutée !');
+  });
+
+  // Veille form
+  document.getElementById('btn-open-veille-form').addEventListener('click',function(){document.getElementById('veille-add-form').classList.toggle('open');});
+  document.getElementById('btn-cancel-veille').addEventListener('click',function(){document.getElementById('veille-add-form').classList.remove('open');});
+  document.getElementById('btn-save-veille').addEventListener('click',function(){
+    var name=document.getElementById('new-veille-name').value.trim();
+    var platform=document.getElementById('new-veille-platform').value;
+    var link=document.getElementById('new-veille-link').value.trim();
+    var desc=document.getElementById('new-veille-desc').value.trim();
+    if(!name){showToast('⚠ Merci de renseigner un nom.');return;}
+    veilleItems.push({id:Date.now(),name:name,platform:platform,link:link,desc:desc});
+    ['new-veille-name','new-veille-link','new-veille-desc'].forEach(function(id){document.getElementById(id).value='';});
+    document.getElementById('veille-add-form').classList.remove('open');
+    renderVeille();showToast('✅ Ressource ajoutée !');
+  });
+
+  // Contact form
+  document.getElementById('btn-submit').addEventListener('click', function(){
+    var fields=['fc-prenom','fc-nom','fc-email','fc-sujet','fc-msg'];
+    var ok=true;
+    for(var i=0;i<fields.length;i++){if(!document.getElementById(fields[i]).value.trim()){ok=false;break;}}
+    if(!ok){showToast('⚠ Merci de remplir tous les champs.');return;}
+    var data={
+      prenom:document.getElementById('fc-prenom').value,
+      nom:document.getElementById('fc-nom').value,
+      email:document.getElementById('fc-email').value,
+      sujet:document.getElementById('fc-sujet').value,
+      message:document.getElementById('fc-msg').value
+    };
+    fetch('https://formspree.io/f/xpqndavw',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+    .then(function(res){
+      if(res.ok){
+        for(var i=0;i<fields.length;i++) document.getElementById(fields[i]).value='';
+        showToast('✅ Message envoyé ! Je vous répondrai dès que possible.');
+      } else {showToast('❌ Erreur lors de l\'envoi.');}
+    }).catch(function(){showToast('❌ Erreur réseau.');});
+  });
+
+  // Secret admin shortcut — triple A
+  var adminKeyCount=0, adminTimer;
+  document.addEventListener('keydown',function(e){
+    if(e.key.toLowerCase()==='a'){
+      adminKeyCount++;
+      clearTimeout(adminTimer);
+      adminTimer=setTimeout(function(){adminKeyCount=0;},1000);
+      if(adminKeyCount>=3){openAdmin();adminKeyCount=0;}
+    }
+  });
+
+  // Scroll reveal
+  var obs=new IntersectionObserver(function(entries){
+    for(var i=0;i<entries.length;i++){if(entries[i].isIntersecting)entries[i].target.classList.add('visible');}
+  },{threshold:.12});
+  var reveals=document.querySelectorAll('.reveal');
+  for(var i=0;i<reveals.length;i++) obs.observe(reveals[i]);
+
+  renderProjects();
+  renderSkills();
+  renderVeille();
 });
-
-const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
-
-renderProjects();
-renderSkills();
-renderVeille();
 </script>
-
-
-</body></html>
+</body>
+</html>
