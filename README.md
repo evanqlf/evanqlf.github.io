@@ -1,4 +1,4 @@
-# evanqlf.github.io - PortFolio personel
+# evanqlf.github.io - PortFolio personnel
 
 Bienvenue sue le dépôt de mon portfolio personnel qui est accessible en ligne à l'adresse suivante :
 [evanqlf.github.io](https://evanqlf.github.io)
