@@ -26,7 +26,7 @@ Ce site est mon portfolio personnel. Il a été conçu pour :
 
 ## Voir le site
 
-Le site est hén=bergé via **Github Pages** et accessible directement ici : 
+Le site est hébergé via **Github Pages** et accessible directement ici : 
 🔗 [https://evanqlf.github.io](https://evanqlf.github.io)
 
 ---
